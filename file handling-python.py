@@ -76,6 +76,7 @@ lam_map_list=list(map(lambda n:n*n,list_l))
 print(lam_map_list) #[4, 16, 25, 36, 81, 100]
 
 # Reduce
+# Reduce is part of functools module, we need to import it 
 # Returns single value by applying cumulative operations on the iterables elements
 # Without lambda function
 def sum(a,b):
