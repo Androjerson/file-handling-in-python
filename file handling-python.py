@@ -21,7 +21,7 @@ with open("Virat-Kohli.png","rb") as src_img:
     image=src_img.read() #Displays the binary data 
 
 with open("Virat-Kohli-cp.png","wb") as tgt_img:
-        tgt_img.write(image)
+        tgt_img.write(image) #When writing binary data to the target image file, you should write the entire content at once, rather than iterating through individual pixels
 
 
 
